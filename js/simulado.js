@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const response = await fetch("/genetica-enem/includes/perguntas.php");
-  const perguntas = await response.json();
+  let perguntas = await response.json();
+
+  // Embaralha as perguntas e pega apenas as 10 primeiras
+  perguntas = perguntas.sort(() => Math.random() - 0.5).slice(0, 10);
 
   const container = document.getElementById("quizContainer");
 

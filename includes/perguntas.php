@@ -51,5 +51,5 @@ $perguntas = [
 ];
 
 shuffle($perguntas);
-echo json_encode(array_slice($perguntas, 0, 3));
+echo json_encode(array_slice($perguntas, 0, 10));
 ?>
