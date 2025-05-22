@@ -26,7 +26,7 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item <?php if($pagina_atual == 'home') echo 'active'; ?>">
                         <a class="nav-link" href="/genetica-enem/index.php">
-                            Home <?php if($pagina_atual == 'home') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            Home
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -34,29 +34,29 @@
                             Assuntos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/genetica-enem/pages/leis-de-mendel.php">
-                                Leis de Mendel <?php if($pagina_atual == 'leis') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'leis') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/leis-de-mendel.php">
+                                Leis de Mendel
                             </a>
-                            <a class="dropdown-item" href="/genetica-enem/pages/dna-rna.php">
-                                DNA e RNA <?php if($pagina_atual == 'dna') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'dna') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/dna-rna.php">
+                                DNA e RNA
                             </a>
-                            <a class="dropdown-item" href="/genetica-enem/pages/mutacao-diversidade.php">
-                                Mutação e Diversidade <?php if($pagina_atual == 'mutacao') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'mutacao') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/mutacao-diversidade.php">
+                                Mutação e Diversidade
                             </a>
-                            <a class="dropdown-item" href="/genetica-enem/pages/biotecnologia-engenharia.php">
-                                Biotecnologia <?php if($pagina_atual == 'biotec') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'biotec') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/biotecnologia-engenharia.php">
+                                Biotecnologia
                             </a>
-                            <a class="dropdown-item" href="/genetica-enem/pages/heredogramas.php">
-                                Heredogramas <?php if($pagina_atual == 'heredogramas') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'heredogramas') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/heredogramas.php">
+                                Heredogramas
                             </a>
-                            <a class="dropdown-item" href="/genetica-enem/pages/doencas-geneticas.php">
-                                Doenças Genéticas <?php if($pagina_atual == 'doencas') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            <a class="dropdown-item<?php if($pagina_atual == 'doencas') echo ' font-weight-bold'; ?>" href="/genetica-enem/pages/doencas-geneticas.php">
+                                Doenças Genéticas
                             </a>
                         </div>
                     </li>
                     <li class="nav-item <?php if($pagina_atual == 'simulado') echo 'active'; ?>">
                         <a class="nav-link" href="/genetica-enem/simulado.php">
-                            Simulado <?php if($pagina_atual == 'simulado') echo '<span class="sr-only">(página atual)</span>'; ?>
+                            Simulado
                         </a>
                     </li>
                 </ul>
