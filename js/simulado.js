@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const response = await fetch("perguntas.php");
+  const response = await fetch("/genetica-enem/includes/perguntas.php");
   const perguntas = await response.json();
 
   const container = document.getElementById("quizContainer");

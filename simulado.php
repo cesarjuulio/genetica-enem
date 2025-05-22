@@ -12,13 +12,14 @@
     <h1>Simulado de Genética</h1>
     <p>Teste seus conhecimentos sobre genética com este simulado.</p>
 
-    <h1>Simulado Online</h1>
-    <form id="quizForm">
+    <form id="quizForm" method="POST">
         <div id="quizContainer"></div>
         <button type="submit">Enviar Respostas</button>
     </form>
     <div id="resultado" style="margin-top:20px; font-weight:bold;"></div>
 
     <?php include 'includes/footer.php'; ?>
+
+    <script src="js/simulado.js"></script>
 </body>
 </html>
