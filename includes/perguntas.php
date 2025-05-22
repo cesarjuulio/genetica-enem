@@ -31,18 +31,18 @@ $perguntas = [
     "pergunta" => "(ENEM 2017) O heredograma mostra a incidência de uma anomalia genética em um grupo familiar.(IMAGEM) O indivíduo representado pelo número 10, preocupado em transmitir o alelo para a anomalia genética a seus filhos, calcula que a probabilidade de ele ser portador desse alelo é de",
     "alternativas" => ["0%", "25%", "50%", "67%", "75%"],
     "correta" => 4
-  ]
+  ],
   [
     "pergunta" => "(ENEM 2015) A fenilcetonúria é uma doença hereditária autossômica recessiva, associada à mutação do gene PAH, que limita a metabolização do aminoácido fenilalanina. Por isso, é obrigatório, por lei, que as embalagens de alimentos, como refrigerantes dietéticos, informem a presença de fenilalanina em sua composição. Uma mulher portadora de mutação para o gene PAH tem tês filhos normais, com um homem normal, cujo pai sofria de fenilcetonúria, devido à mesma mutação no gene PAH encontrada em um dos alelos da mulher.
     Qual a probabilidade de a quarta criança gerada por esses pais apresentar fenilcetonúria?",
     "alternativas" => ["0%", "12,5%", "25%", "50%", "75%"],
     "correta" => 3
-  ]
+  ],
   [
     "pergunta" => "(ENEM 2012)Após a redescoberta do trabalho de Gregor Mendel, vários experimentos buscaram testar a universalidade de suas leis. Suponha um desses experimentos, realizado em um mesmo ambiente, em que uma planta de linhagem pura com baixa estatura (0,6 m) foi cruzada com uma planta de linhagem pura de alta estatura (1,0 m). Na prole (F1) todas as plantas apresentaram estatura de 0,8 m. Porém, na F2 (F1 x F1) os pesquisadores encontraram os dados a seguir.(IMAGEM)Os pesquisadores chegaram à conclusão, a partir da observação da prole, que a altura nessa planta é uma característica que",
     "alternativas" => ["não segue as leis de Mendel.", "não é herdada e, sim, ambiental.", "apresenta herança mitocondrial.", "é definida por mais de um gene.", "é definida por um gene com vários alelos."],
     "correta" => 4
-  ]
+  ],
   [
     "pergunta" => "(ENEM 2019) Ao final do experimento, os dois grupos de plantas apresentaram",
     "alternativas" => ["os genótipos e os fenótipos idênticos.", "os genótipos idênticos e os fenótipos diferentes.", "diferenças nos genótipos e fenótipos.", "o mesmo fenótipo e apenas dois genótipos diferentes.", "o mesmo fenótipo e grande variedade de genótipos."],
