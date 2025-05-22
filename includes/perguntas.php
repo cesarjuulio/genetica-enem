@@ -1,7 +1,7 @@
 <?php
 $perguntas = [
   [
-    "pergunta" => "(ENEM 2024)O desenvolvimento da biotecnologia e da clonagem gênica em procariotos fez com que a produção de proteínas se tornasse mais intensa, rápida e econômica. Para a produção de hormônios, enzimas e proteínas de resistência a drogas, uma variação da técnica de reação em cadeia pela polimerase (PCR, na sigla em inglês) utiliza a enzima transcriptase reversa (RT-PCR), que sintetiza moléculas de DNA complementares a partir de fitas de RNA. " <br> "Nesse contexto, essa técnica é importante para detectar genes",
+    "pergunta" => "(ENEM 2024)O desenvolvimento da biotecnologia e da clonagem gênica em procariotos fez com que a produção de proteínas se tornasse mais intensa, rápida e econômica. Para a produção de hormônios, enzimas e proteínas de resistência a drogas, uma variação da técnica de reação em cadeia pela polimerase (PCR, na sigla em inglês) utiliza a enzima transcriptase reversa (RT-PCR), que sintetiza moléculas de DNA complementares a partir de fitas de RNA. Nesse contexto, essa técnica é importante para detectar genes",
     "alternativas" => ["Expressos", "Plasmidais", "Bacterianos", "Dominantes", "Autossômicos"],
     "correta" => 1
   ],
@@ -31,16 +31,3 @@ $perguntas = [
   ]
 ];
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/fav.jpg" type="image/x-icon">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
