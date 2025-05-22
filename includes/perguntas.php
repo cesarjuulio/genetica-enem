@@ -6,14 +6,18 @@ $perguntas = [
     "correta" => 1
   ],
   [
-    "pergunta" => "Quanto é 7 + 5?",
-    "alternativas" => ["10", "12", "14", "15"],
-    "correta" => 1
+    "pergunta" => "(ENEM 2021) Em um grupo de roedores, a presença de um gene dominante (A) determina indivíduos com pelagem na cor amarela. Entretanto, em homozigose é letal, ou seja, provoca a morte dos indivíduos no útero. Já o alelo recessivo (a) não é letal e determina a presença de pelos pretos. Com base nessas informações, considere o heredograma:
+      Qual é a probabilidade de, na próxima ninhada do casal de roedores que está representado na figura pelos números 7 e 8, nascer uma fêmea de pelagem amarela (representada pelo número 11)?",
+    "alternativas" => ["1/4 (25%)", "1/3 (33%)", "1/2 (50%)", "2/3 (66%)", "3/4 (75%)"],
+    "correta" => 2
   ],
   [
-    "pergunta" => "Qual linguagem é usada para criar páginas web?",
-    "alternativas" => ["PHP", "Python", "HTML", "C++"],
-    "correta" => 2
+    "pergunta" => "(ENEM 2019) Com base nos experimentos de plantas de Mendel, foram estabelecidos três princípios básicos, que são conhecidos como leis da uniformidade, segregação e distribuição independente. A lei da distribuição independente refere-se ao fato de que os membros de pares diferentes de genes segregam-se independentemente, uns dos outros, para a prole.
+    TURNPENNY, P. D. Genética médica. Rio de Janeiro: Elsevier, 2009 (adaptado).
+    Hoje, sabe-se que isso nem sempre é verdade. Por quê?",
+    "alternativas" => ["A distribuição depende do caráter de dominância ou recessividade do gene.", "Os organismos nem sempre herdam cada um dos genes de cada um dos genitores.", "As alterações cromossômicas podem levar a falhas na segregação durante a meiose.", "
+    Os genes localizados fisicamente próximos no mesmo cromossomo tendem a ser herdados juntos.", "O cromossomo que contém dois determinados genes pode não sofrer a disjunção na primeira fase da meiose."],
+    "correta" => 4
   ],
   [
     "pergunta" => "Quem pintou a Mona Lisa?",
