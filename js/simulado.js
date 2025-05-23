@@ -44,28 +44,35 @@ document.addEventListener("DOMContentLoaded", async () => {
       e.preventDefault();
       let acertos = 0;
 
-      // Remove feedbacks antigos
+      // Remove todos os feedbacks de respostas anteriores, caso existam,
+      // para evitar que múltiplos feedbacks se acumulem ao submeter novamente.
       document.querySelectorAll('.feedback-resposta').forEach(el => el.remove());
 
       perguntasSelecionadas.forEach((q, index) => {
+        // Busca a alternativa marcada pelo usuário para a pergunta atual.
         const resposta = document.querySelector(`input[name="q${index}"]:checked`);
+        // Seleciona o elemento da questão correspondente no container.
         const divQuestao = container.children[index];
+        // Cria um novo elemento para exibir o feedback da resposta.
         let feedback = document.createElement('div');
         feedback.className = 'feedback-resposta';
         feedback.style.marginTop = '8px';
         feedback.style.fontWeight = 'bold';
 
+        // Verifica se o usuário respondeu e se a resposta está correta.
         if (resposta && parseInt(resposta.value) === q.correta) {
-          acertos++;
+          acertos++; // Incrementa o contador de acertos.
           feedback.textContent = '✔️ Resposta correta!';
           feedback.style.color = '#388e3c';
         } else {
           feedback.textContent = '❌ Resposta incorreta.';
           feedback.style.color = '#d32f2f';
         }
+        // Adiciona o feedback visual logo abaixo da questão.
         divQuestao.appendChild(feedback);
       });
 
+      // Exibe o resultado final ao usuário
       document.getElementById("resultado").innerText = `Você acertou ${acertos} de ${perguntasSelecionadas.length}.`;
     };
   });

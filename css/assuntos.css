@@ -1,8 +1,20 @@
 body {
-    background: #f5faff;
-    color: #222;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    background-image: url('https://estagiosupervisionadoiv.wordpress.com/wp-content/uploads/2018/11/source.gif?w=825&h=510&crop=1');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: rgba(227, 242, 253, 0.63);
+    pointer-events: none;
 }
 
 main {

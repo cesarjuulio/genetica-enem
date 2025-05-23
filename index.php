@@ -12,6 +12,11 @@
     <div class="container">
         <h1>Estudo de Genética do ENEM</h1>
         <p>Aqui você poderá acessar informações de:</p>
+        <!-- 
+            Carrossel de assuntos principais do site.
+            Cada "carrossel-card" é um link para uma página temática sobre genética.
+            O texto dentro de <strong> destaca o tema, e o <div> abaixo faz um resumo do conteúdo.
+        -->
         <div class="carrossel-assuntos">
             <a class="carrossel-card" href="pages/dna-rna.php">
                 <strong>DNA e RNA</strong>
@@ -50,8 +55,14 @@
                 </div>
             </a>
         </div>
+        <!-- 
+            Botão de destaque para acessar o simulado.
+            Fica centralizado e estilizado para chamar a atenção do usuário.
+        -->
         <p style="text-align:center; margin-top:32px;">
-            <a href="simulado.php" style="background:#1976d2;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:bold;box-shadow:0 2px 8px rgba(25,118,210,0.08);transition:background 0.2s;">Ir para o Simulado</a>
+            <a href="simulado.php">
+                Ir para o Simulado
+            </a>
         </p>
     </div>
 </body>
