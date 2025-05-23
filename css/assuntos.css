@@ -61,7 +61,7 @@ main ul {
     margin-bottom: 24px;
 }
 
-main ul li, main ul ol {
+main ul li, main ol li {
     color: #1976d2;
     font-weight: 500;
 }
