@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutações e Diversidade Genética</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/fav.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/assuntos.css">
 </head>
 <body>
     <?php include('../includes/header.php'); ?>
     
     <main>
         <h1>Mutações e Diversidade Genética</h1>
-        <p>As mutações são alterações na sequência de nucleotídeos do DNA que podem ocorrer de forma espontânea ou induzida por fatores externos. Elas desempenham um papel crucial na evolução e na diversidade genética das populações.</p>
+        <p>Mutações são alterações na sequência do DNA que ocorrem de forma espontânea ou devido a fatores externos como radiação, produtos químicos ou vírus. Elas podem ocorrer em genes (mutações gênicas) ou em cromossomos (mutações cromossômicas). A diversidade genética é a variação do material genético entre os indivíduos de uma mesma espécie.</p>
         
         <h2>Tipos de Mutações</h2>
         <ul>
@@ -28,7 +29,5 @@
         <h2>Exemplos de Mutações e suas Consequências</h2>
         <p>Algumas mutações podem resultar em doenças genéticas, enquanto outras podem conferir resistência a doenças ou adaptações a ambientes específicos.</p>
     </main>
-
-    <?php include('../includes/footer.php'); ?>
 </body>
 </html>
