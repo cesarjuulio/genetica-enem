@@ -17,13 +17,13 @@
         <div id="configSimulado">
             <div id="objetosConfig">
                 <label for="numPerguntas"><strong>Quantas perguntas você quer responder?</strong></label>
-                <input type="number" id="numPerguntas" min="1" max="10" value="5" style="width:60px;">
+                <input type="number" id="numPerguntas" min="1" max="10" style="width:100px;">
                 <button id="iniciarSimulado" type="button">Iniciar</button>
             </div>
         </div>
         <form id="quizForm" style="display:none;">
             <div id="quizContainer"></div>
-            <button type="submit">Enviar Respostas</button>
+            <button id="submitButton" type="submit">Enviar Respostas</button>
         </form>
 
         <div id="resultado" style="margin-top:20px; font-weight:bold;"></div>

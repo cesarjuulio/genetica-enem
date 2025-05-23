@@ -102,17 +102,21 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 80vh;
     gap: 24px;
 }
 
-#quizForm button[type="submit"]:hover {
-    background: #1565c0;   cursor: pointer;
+#quizForm #submitButton:hover {
+    background: #1565c0;   
+    cursor: pointer;
 } 
 
-#quizForm button[type="submit"] {
+#quizForm #submitButton {
     background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
     color: #fff;
     border: none;
+    left: 25%;
     border-radius: 6px;
     padding: 10px 28px;
     font-size: 1.1em;
@@ -123,7 +127,8 @@ p {
     align-self: center;
 }
 
-#quizForm button[type="submit"]:hover {
+#quizForm #submitButton:hover {
     background: #1565c0;
+    border-radius: 6px;
     transform: translateY(-2px) scale(1.04);
 }
